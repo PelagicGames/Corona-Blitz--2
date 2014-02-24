@@ -1,0 +1,22 @@
+settings = {
+	orientation = {
+		default = "landscapeRight",
+		supported = {"landscapeRight", "landscapeLeft"}
+	},
+
+	plugins = {
+	},
+
+	android = {
+		usesPermissions = {}
+	},
+
+	iphone = {
+		plist = {
+			CFBundleIconFiles = {},
+			UIApplicationExitsOnSuspend = false,
+			UIPrerenderedIcon = false,
+			UIStatusBarHidden = true,
+		}
+	}
+}
